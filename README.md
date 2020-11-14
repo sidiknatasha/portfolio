@@ -1,2 +1,2 @@
 # sashann
-Natasha Sidik's Portfolio/Resume Website-in-progress
+Natasha Sidik's Portfolio Website-in-progress
