@@ -1,0 +1,116 @@
+	html {
+  	scroll-behavior: smooth;
+	}
+
+	.bg{
+	background-image: url(https://i.gyazo.com/cd4e72c9293f09efc2b90d6bb5962e1d.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	width: 100%;
+	}
+
+	.profile{
+	display: inline;
+	max-width:100%;
+	margin-left:20%;
+	}
+
+	.black{
+  	color: black;
+	}
+
+	.items{
+	padding: 6px;
+	cursor: pointer;
+	margin: 10px 0px 0px 20px;
+	}
+
+	.black:hover{
+	color: #54751E;
+	}
+
+	.regular{
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;	
+	}
+
+	.extrabold{
+	font-family: 'Manrope', sans-serif;
+	font-weight: 800;
+	}
+
+	.extrabold .parta{
+	margin-top: 10%;
+	}
+
+  	.catchline{
+	margin: 10%  5% 5%; 
+	}
+
+	.parta{
+	padding-bottom: 3%;
+	max-width: 90%;
+	}
+
+	.space{
+	padding-bottom: 3%;
+	}
+
+/*Profile Card 5*/
+.profile-card-5{
+    margin-top:20px;
+}
+.profile-card-5 .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#54751E;
+    border-color:#54751E;
+}
+
+	.buttona{
+	padding: 10px;
+	background-color:#54751E;
+	border: 1px solid #54751E;
+	border-radius: 10px;
+	}
+	
+	.buttona a{
+	color:white;
+	font-size : 14pt;
+	}
+
+	.buttona:hover{
+	background-color: grey;
+	border: 1px solid grey
+	}
+
+	.buttona a:hover{
+	color:white;
+	font-size : 14pt;
+	text-decoration: none;
+	}
+
