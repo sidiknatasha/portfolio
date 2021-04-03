@@ -13,7 +13,7 @@
 	.profile{
 	display: inline;
 	max-width:100%;
-	margin-left:20%;
+	border-radius: 15px;
 	}
 
 	.black{
@@ -45,7 +45,7 @@
 	}
 
   	.catchline{
-	margin: 10%  5% 5%; 
+	margin-top: 10%
 	}
 
 	.parta{
@@ -79,12 +79,12 @@
     box-shadow:0 0 10px rgba(0,0,0,0.63);
 }
 .profile-card-5 h5{
-    color:#4E5E30;
+    color:#54751E;
     font-weight:600;
 }
 .profile-card-5 p{
     font-size:14px;
-    font-weight:300;
+    font-weight:400;
 }
 .profile-card-5 .btn-primary{
     background-color:#54751E;
@@ -92,25 +92,37 @@
 }
 
 	.buttona{
-	padding: 10px;
-	background-color:#54751E;
-	border: 1px solid #54751E;
-	border-radius: 10px;
 	}
 	
 	.buttona a{
-	color:white;
+	color: black;
 	font-size : 14pt;
 	}
 
 	.buttona:hover{
-	background-color: grey;
-	border: 1px solid grey
 	}
 
 	.buttona a:hover{
-	color:white;
-	font-size : 14pt;
+	color:#54751E;
+	font-size : 18pt;
 	text-decoration: none;
 	}
 
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+.font{
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 14pt;
+}
+
+.font:hover{
+	font-size:18pt;
+}
+
+@media(max-width: 990px){
+	.profile-card-5{
+		margin-bottom: 5vw;
+	}
+	.partb{
+		margin-left:2vw;
+	}
+}
