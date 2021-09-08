@@ -53,7 +53,62 @@ html {
   padding-bottom: 1%;
   }
 
-/*Profile Card 5*/
+  .space3{
+  padding: 1.5% 1% 0%;
+  }
+
+  .space4{
+  padding: 2%;
+  }
+
+  .xl{
+  font-size: x-large;
+  }
+
+  .la{
+  font-size: large;
+  }
+
+/*Filter*/
+
+  .filters a {
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  .filters a:hover, .filters a:focus, .filters a:active {
+    text-decoration: none;
+    color:#54751E;
+  }
+  
+  .filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .filters a.active {
+    color: #000;
+  }
+  
+  .filters a.active:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+
+/*Profile Cards*/
 .profile-card-5{
   margin-top:20px;
 }
