@@ -30,13 +30,19 @@ document.addEventListener("scroll", handleScroll)
 
     function init() {
         const allBtn = document.getElementById('all');
-        const mangaBtn = document.getElementById('manga');
-        const animeBtn = document.getElementById('anime');
+        const webBtn = document.getElementById('website');
+        const mobileBtn = document.getElementById('mobile');
+        const researchBtn = document.getElementById('research');
+        const designBtn = document.getElementById('design');
+        const codeBtn = document.getElementById('code');
         const colorsBtn = document.getElementById('colors');
 
         allBtn.addEventListener('click', filter);
-        mangaBtn.addEventListener('click', filter);
-        animeBtn.addEventListener('click', filter);
+        webBtn.addEventListener('click', filter);
+        mobileBtn.addEventListener('click', filter);
+        researchBtn.addEventListener('click', filter);
+        designBtn.addEventListener('click', filter);
+        codeBtn.addEventListener('click', filter);
         colorsBtn.addEventListener('click', filter);
     }
 

@@ -71,7 +71,14 @@ html {
 
 /*Filter*/
 
-  .filters a {
+.btnn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.filters .btnn {
     color: #000;
     display: inline-block;
     padding-left: 10px;
@@ -79,12 +86,12 @@ html {
     position: relative;
   }
   
-  .filters a:hover, .filters a:focus, .filters a:active {
+.filters .btnn:hover, .filters .btnn:focus, .filters .btnn:active {
     text-decoration: none;
     color:#54751E;
   }
   
-  .filters a:hover:before {
+.filters .btnn:hover:before {
     content: "";
     position: absolute;
     left: 10px;
@@ -94,11 +101,11 @@ html {
     background-color: #000;
   }
   
-  .filters a.active {
+.filters .btnn.active {
     color: #000;
   }
-  
-  .filters a.active:before {
+
+  .filters .btnn.active:before {
     content: "";
     position: absolute;
     left: 10px;
@@ -108,18 +115,25 @@ html {
     background-color: #000;
   }
 
-  .btn
+.filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+  
+.show {
+    display: block;
+}
 
 /*Profile Cards*/
 .profile-card-5{
   margin-top:20px;
 }
-.profile-card-5 .btn{
-  border-radius:2px;
-  text-transform:uppercase;
-  font-size:12px;
-  padding:7px 20px;
-}
+
 .profile-card-5 .card-img-block {
   width: 91%;
   margin: 0 auto;
