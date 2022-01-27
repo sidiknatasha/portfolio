@@ -187,6 +187,15 @@ html {
   color: black;
 }
 
+.link2{
+  background: black
+  color: white
+}
+
+.link2:hover{
+  background: #54751E;
+}
+
 .screen{
   max-width: 600px;
 }
