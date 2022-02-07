@@ -11,6 +11,10 @@ html {
   .black{
 	color: black;
   }
+  
+  .green{
+  color: #54751E;
+  }
 
   .items{
   padding: 6px;
@@ -284,6 +288,11 @@ flex: 50%;
   font-weight: 600;	
   }
 
+.bold{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;	
+  }
+
 .extrabold{
   font-family: 'Manrope', sans-serif;
   font-weight: 800;
@@ -292,4 +301,15 @@ flex: 50%;
 .mont1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+}
+
+.credit{
+  text-decoration: none;
+  font-size: medium;
+}
+
+.credit:hover{
+  text-decoration: none;
+  color: black;
+  font-size: large;
 }
