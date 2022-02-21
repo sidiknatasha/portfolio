@@ -303,6 +303,17 @@ flex: 50%;
   font-weight: 500;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+.karla{
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
+
+.highlight{
+  background: cornsilk;
+}
+
 .credit{
   text-decoration: none;
   font-size: medium;
@@ -313,3 +324,14 @@ flex: 50%;
   color: black;
   font-size: large;
 }
+
+.mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {display: inline;}
+}
+
+.mobileHide{ display: none;}
