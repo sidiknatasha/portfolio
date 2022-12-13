@@ -1,3 +1,3 @@
 # sasha's portfolio
-case studies updating  
-improving code & design
+updating case studies  
+cleaning code & making design improvements
