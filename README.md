@@ -1,2 +1,3 @@
 # sasha's portfolio
-work-in-progress  
+case studies updating  
+improving code & design
