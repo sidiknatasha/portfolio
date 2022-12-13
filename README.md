@@ -1,2 +1,3 @@
 # sasha's portfolio
-a work-in-progress
+work-in-progress
+self-coded & designed
