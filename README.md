@@ -1,4 +1,4 @@
 # sasha's portfolio
-updating case studies  
-cleaning code  
-making design improvements
+<li>updating case studies</li>
+<li>cleaning code</li>
+<li>making design improvements</li
