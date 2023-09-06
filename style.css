@@ -2,10 +2,11 @@ html {
 	scroll-behavior: smooth;
   }
 
-  .profile{
+  .profile1{
   display: inline;
   max-width:100%;
-  border-radius: 15px;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0,0,0,0.63);
   }
 
   .black{
@@ -18,25 +19,22 @@ html {
 
   .items{
   padding: 6px;
-  cursor: pointer;
+  cursor: cell;
   margin: 10px 0px 0px 20px;
   }
 
   .black:hover{
-  color: #54751E;
-  }
-
-  .extrabold .parta{
-  margin-top: 10%;
+  font-style: italic;
   }
 
 	.catchline{
-  margin-top: 10%
+  margin-top: 5%;
   }
 
   .parta{
   padding-bottom: 3%;
   max-width: 90%;
+  margin-top: 10%;
   }
 
   .space{
@@ -72,8 +70,11 @@ html {
 .btnn{
   border: none;
   outline: none;
-  cursor: pointer;
   background-color: white;
+}
+
+.btnn:hover{
+  cursor: cell;
 }
 
 .filters .btnn {
@@ -128,6 +129,17 @@ html {
 }
 
 /*Profile Cards*/
+
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.card-text{
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+}
+
 .profile-card-5{
   margin-top:20px;
 }
@@ -137,44 +149,19 @@ html {
   margin: 0 auto;
   position: relative;
   top: -20px;
+  cursor: cell;
   
 }
 .profile-card-5 .card-img-block img{
   border-radius:5px;
-  box-shadow:0 0 10px rgba(0,0,0,0.63);
+  /*box-shadow:0 0 10px rgba(0,0,0,0.63);*/
+  cursor: cell;
+
 }
-.profile-card-5 h5{
-  color:black;
-  font-weight:600;
-}
-.profile-card-5 p{
-  font-size:14px;
-  font-weight:400;
-}
+
 .profile-card-5 .btn-primary{
   background-color:#54751E;
   border-color:#54751E;
-}
-
-  .buttona a{
-  color: black;
-  font-size : 14pt;
-  }
-
-  .buttona a:hover{
-  color:#54751E;
-  font-size : 18pt;
-  text-decoration: none;
-  }
-
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
-.font{
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 14pt;
-}
-
-.font:hover{
-  font-size:16pt;
 }
 
 @media(max-width: 990px){
@@ -184,24 +171,6 @@ html {
   .partb{
 	  margin-left:2vw;
   }
-}
-
-.link{
-  text-decoration: none;
-  color:#54751E;
-}
-
-.link:hover{
-  color: black;
-}
-
-.link2{
-  background: black;
-  color: white
-}
-
-.link2:hover{
-  background: #54751E;
 }
 
 .screen{
@@ -257,7 +226,7 @@ flex: 50%;
 	  border: none;
 	  border-radius: 50%;
 	  color: white;
-	  cursor: pointer;
+	  cursor: cell;
 	  font-size: 16px;
 	  line-height: 48px;
 	  width: 48px;
@@ -293,43 +262,29 @@ flex: 50%;
 
 /* Fonts */
 
-.regular{
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;	
-  }
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.bold{
-  font-family: 'Manrope', sans-serif;
-  font-weight: 700;	
-  }
 
-.extrabold{
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
-  }
-
-.mont1{
+.mont{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-.opensansm{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-}
-
-.opensansb{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 .karla{
   font-family: 'Karla', sans-serif;
-  font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+.insans{
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+.inserif{
+  font-family: 'Instrument Serif', serif;
 }
 
 .credit{
@@ -342,15 +297,173 @@ flex: 50%;
   color: black;
 }
 
-.mobileShow {display: none;}
 
-/* Smartphone Portrait and Landscape */
+.title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8vw;
+  text-transform: lowercase;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container2 {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 50vh
+}
+
+.regular{
+  font-weight: 600;	
+  }
+
+.bold{
+  font-weight: 700;	
+  }
+
+.extrabold{
+  font-weight: 800;
+  }
+
+.link{
+  text-decoration: none;
+  color:#54751E;
+}
+
+.link:hover{
+  color: black;
+  cursor: cell;
+}
+
+.link2:hover{
+  font-style: italic;
+  color: #54751E;
+  cursor: cell;
+}
+
+.link2:focus{
+  font-style: italic;
+  color: #54751E;
+  text-decoration: underline;
+}
+
+.link3{
+  text-decoration: none;
+  color: black;
+}
+
+.link3:hover{
+  font-style: italic;
+  color: #54751E;
+  cursor: cell;
+  text-decoration: none;
+}
+
+.link3:focus{
+  font-style: italic;
+  color: #54751E;
+}
+
+
+/* Mobile First */
 @media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px){ 
     .mobileShow {display: inline;}
+    .mobileHide{display: none;}}
+
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){
+
+.spotlight{
+    background-position-y: -0%;
+    background-image: linear-gradient(180deg, transparent 50%, black 50%) !important;
+    transition: all 0.1s ease;
+    background-size: 2px;
+    background-size: auto 190%;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: inherit;
 }
 
-.mobileHide{ display: none;}
+.spotlight:hover{
+    background-position-y: 100%;
+    color: white;
+    transition: all 0.1s ease;
+    cursor: cell;
+}
+}
 
-/* Testimonial */
+.buttona a{
+  color: black;
+  font-size : 14pt;
+  }
+
+  .buttona a:hover{
+  font-size : 18pt;
+  text-decoration: none;
+  }
+
+.subs{
+  background-color: #54751E;
+}
+
+/* Social Links */
+
+.social-btns {
+	text-align: right;
+}
+
+.social-btns > li {
+	display:inline;
+}
+
+.social-btns > li > a {
+	padding: 5px;
+  color: black;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.credits{
+  text-align: right;
+}

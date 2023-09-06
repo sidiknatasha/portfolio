@@ -1,0 +1,333 @@
+sass --watch style.scss style.css
+
+$color_1: #000;
+$color_2: #54751E;
+$color_3: #000;
+$color_4: #ffffff;
+$color_5: inherit;
+$font-family_1: 'Instrument Serif', serif;
+$font-family_2: 'Instrument Sans', sans-serif;
+$background-color_1: white;
+$background-color_2: #000;
+$background-color_3: #54751E;
+$background-color_4: #F0F0F0;
+$background-color_5: black;
+$background-color_6: darkgray;
+$border-color_1: #54751E;
+
+@import "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap";
+
+html {
+	scroll-behavior: smooth;
+}
+.profile {
+	display: inline;
+	max-width: 100%;
+	border-radius: 15px;
+}
+.black {
+	color: $color_1;
+	&:hover {
+		font-style: italic;
+	}
+}
+.green {
+	color: $color_2;
+}
+.items {
+	padding: 6px;
+	cursor: cell;
+	margin: 10px 0px 0px 20px;
+}
+.extrabold {
+	.parta {
+		margin-top: 10%;
+	}
+	font-weight: 800;
+}
+.catchline {
+	margin-top: 5%;
+}
+.parta {
+	padding-bottom: 3%;
+	max-width: 90%;
+}
+.space {
+	padding-bottom: 3%;
+}
+.space2 {
+	padding-bottom: 1%;
+}
+.space3 {
+	padding: 1.5% 1% 0%;
+}
+.space4 {
+	padding: 2%;
+}
+.space5 {
+	padding-top: 3%;
+}
+.xl {
+	font-size: x-large;
+}
+.la {
+	font-size: large;
+}
+.btnn {
+	border: none;
+	outline: none;
+	cursor: cell;
+	background-color: $background-color_1;
+}
+.filters {
+	.btnn {
+		color: $color_3;
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		position: relative;
+		&:hover {
+			text-decoration: none;
+			color: $color_2;
+			&:before {
+				content: "";
+				position: absolute;
+				left: 10px;
+				right: 10px;
+				bottom: 0;
+				height: 1px;
+				background-color: $background-color_2;
+			}
+		}
+		&:focus {
+			text-decoration: none;
+			color: $color_2;
+		}
+		&:active {
+			text-decoration: none;
+			color: $color_2;
+		}
+	}
+	.btnn.active {
+		color: $color_3;
+		&:before {
+			content: "";
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			bottom: 0;
+			height: 1px;
+			background-color: $background-color_2;
+		}
+	}
+}
+.filterDiv {
+	float: left;
+	color: $color_4;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 2px;
+	display: none;
+}
+.show {
+	display: block;
+}
+.card-title {
+	font-family: $font-family_1;
+	font-weight: 700;
+}
+.card-text {
+	font-family: $font-family_2;
+	font-weight: 400;
+}
+.profile-card-5 {
+	margin-top: 20px;
+	.card-img-block {
+		width: 91%;
+		margin: 0 auto;
+		position: relative;
+		top: -20px;
+		img {
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.63);
+		}
+	}
+	.btn-primary {
+		background-color: $background-color_3;
+		border-color: $border-color_1;
+	}
+}
+.font {
+	font-family: $font-family_3;
+	font-size: 14pt;
+	&:hover {
+		font-size: 16pt;
+	}
+}
+.screen {
+	max-width: 600px;
+}
+.diagram {
+	max-width: 1000px;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.flex-container2 {
+	display: flex;
+	flex-direction: column;
+}
+.flex-item-left {
+	flex: 50%;
+}
+.flex-item-right {
+	flex: 50%;
+}
+.bg {
+	background-color: $background-color_4;
+	padding: 5%;
+}
+.figma {
+	width: 1000px;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.scrollToTopBtn {
+	background-color: $background-color_5;
+	border: none;
+	border-radius: 50%;
+	color: $color_5;
+	cursor: cell;
+	font-size: 16px;
+	line-height: 48px;
+	width: 48px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 100;
+	opacity: 0;
+	transform: translateY(100px);
+	transition: all .5s ease;
+}
+.showBtn {
+	opacity: 1;
+	transform: translateY(0);
+}
+.footer {
+	background-color: $background-color_6;
+	color: $color_5;
+}
+.center {
+	text-align: center;
+	padding-top: 1.5%;
+}
+.mont1 {
+	font-family: $font-family_4;
+	font-weight: 500;
+}
+.opensansm {
+	font-family: $font-family_5;
+	font-weight: 600;
+}
+.opensansb {
+	font-family: $font-family_5;
+	font-weight: 700;
+}
+.karla {
+	font-family: $font-family_6;
+	font-weight: 500;
+}
+.credit {
+	text-decoration: none;
+	font-size: medium;
+	&:hover {
+		text-decoration: none;
+		color: $color_1;
+	}
+}
+.inserif {
+	font-family: $font-family_1;
+}
+.insans {
+	font-family: $font-family_2;
+}
+.regular {
+	font-weight: 600;
+}
+.bold {
+	font-weight: 700;
+}
+.link {
+	text-decoration: none;
+	color: $color_2;
+	&:hover {
+		color: $color_1;
+		cursor: cell;
+	}
+}
+.link2 {
+	&:hover {
+		text-decoration: italic;
+		color: $color_2;
+		cursor: cell;
+	}
+	&:focus {
+		text-decoration: italic;
+		color: $color_2;
+		text-decoration: underline;
+	}
+}
+.buttona {
+	a {
+		color: $color_1;
+		font-size: 14pt;
+		&:hover {
+			font-size: 18pt;
+			text-decoration: none;
+		}
+	}
+}
+@media max-width: 990px) {
+	.profile-card-5 {
+		margin-bottom: 5vw;
+	}
+	.partb {
+		margin-left: 2vw;
+	}
+}
+@media (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.mobileShow {
+		display: inline;
+	}
+	.mobileHide {
+		display: none;
+	}
+	.spotlight {
+		background-position-y: -0%;
+		background-image: linear-gradient(180deg, transparent 50%, black 50%) !important;
+		transition: all 0.1s ease;
+		background-size: 2px;
+		background-size: auto 190%;
+		padding: 10px 0px;
+		text-decoration: none;
+		color: $color_5;
+		&:hover {
+			background-position-y: 100%;
+			color: $color_5;
+			transition: all 0.1s ease;
+			cursor: cell;
+		}
+	}
+}
