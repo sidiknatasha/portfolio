@@ -12,6 +12,10 @@ html {
   .black{
 	color: black;
   }
+
+  .black:hover{
+    font-style: italic;
+  }
   
   .green{
   color: #54751E;
@@ -21,10 +25,6 @@ html {
   padding: 6px;
   cursor: cell;
   margin: 10px 0px 0px 20px;
-  }
-
-  .black:hover{
-  font-style: italic;
   }
 
 	.catchline{
@@ -405,6 +405,7 @@ flex: 50%;
 
 
 /* Mobile First */
+
 @media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px){ 
@@ -467,3 +468,8 @@ flex: 50%;
 .credits{
   text-align: right;
 }
+
+.flower{
+  max-width: 4vw;
+}
+
