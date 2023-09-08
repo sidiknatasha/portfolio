@@ -250,11 +250,6 @@ flex: 50%;
 	  transform: translateY(0)
 	}
 
-.footer{
-  background-color: darkgray;
-  color: white;
-}
-
 .center{
   text-align: center;
   padding-top: 1.5%;
@@ -470,6 +465,25 @@ flex: 50%;
 }
 
 .flower{
-  max-width: 4vw;
+  max-height: 8vh;
 }
 
+.liner1{
+  background-color: #ACCFCB;
+  padding: 3px;
+}
+
+.liner2{
+  background-color: #E4A9A8;
+  padding: 3px;
+}
+
+.liner3{
+  background-color: #DBAD4A;
+  padding: 3px;
+}
+
+.liner4{
+  background-color: #3D8DAE; 
+  padding: 3px;
+}
