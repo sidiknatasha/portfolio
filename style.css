@@ -386,18 +386,12 @@ flex: 50%;
   color: black;
 }
 
-.link3:hover{
-  font-style: italic;
-  color: #54751E;
+.link3:hover,.link3:focus{
+  color: white;
   cursor: cell;
   text-decoration: none;
+  background: #54751E;
 }
-
-.link3:focus{
-  font-style: italic;
-  color: #54751E;
-}
-
 
 /* Mobile First */
 
